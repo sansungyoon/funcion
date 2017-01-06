@@ -1,0 +1,127 @@
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="Funcion">
+    <meta name="author" content="Hero">
+
+    <title>재능마켓 글쓰기 page test version</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="jumbotron-narrow.css" rel="stylesheet">
+
+	<link rel="stylesheet" href="dist/css/bootstrap-theme.min.css">
+	<script src="jquery-1.11.0.min.js"></script>
+	<script src="bootstrap.min.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<style>
+	.up_down{
+			margin-top:2px;
+			margin-bottom:2px;
+		}
+	</style>
+  </head>
+  <body>
+    <div class="container">
+	<nav class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Funcion</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+          <ul class="nav navbar-nav navbar-right">
+          	<li><a href="Funcion.html">Home</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li style="margin-right:30px;"><a href="apply.html">Apply</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    <!--내용채우기-->
+    <div class="container">
+    	<div>
+        	<h3 class="text-center text-danger">공연 제목</h3>
+        	<input type="text" class="form-control" placeholder="Text input">
+        </div>
+    	<div>
+        	<h3 class="text-center text-danger">장소</h3>
+        	<input type="text" class="form-control" placeholder="Text input">
+        </div>
+    	<div class="up_down">
+        	<h3 class="text-center text-danger">관객 수</h3>
+    		<select class="form-control up_down">
+			  <option>30명 이하</option>
+			  <option>50명 이하</option>
+			  <option>100명 이하</option>
+			  <option>300명 이하</option>
+			  <option>그 이상</option>
+			</select>
+		</div>
+        <div class=" text-center up_down">
+			<h3 class="text-center text-danger">관객 연령</h3>
+            <label class="checkbox-inline">
+				<input type="checkbox" id="inlineCheckbox1" value="option1"> 10대
+			</label>
+			<label class="checkbox-inline">
+				<input type="checkbox" id="inlineCheckbox2" value="option2"> 20대
+			</label>
+			<label class="checkbox-inline">
+				<input type="checkbox" id="inlineCheckbox3" value="option3"> 30대
+			</label>
+			<label class="checkbox-inline">
+				<input type="checkbox" id="inlineCheckbox3" value="option3"> 40대
+			</label>
+			<label class="checkbox-inline">
+				<input type="checkbox" id="inlineCheckbox3" value="option3"> 50대
+			</label>
+			<label class="checkbox-inline">
+				<input type="checkbox" id="inlineCheckbox3" value="option3"> 60대
+			</label>
+			<label class="checkbox-inline">
+				<input type="checkbox" id="inlineCheckbox3" value="option3"> 그 이상
+			</label>
+		</div>
+    	<div class="up_down">
+        	<h3 class="text-danger text-center">공연 비</h3>
+    		<select class="form-control up_down">
+			  <option>50,000원 이하</option>
+			  <option>100,000원 이하</option>
+			  <option>200,000원 이하</option>
+			  <option>300,000원 이하</option>
+              <option>400,000원 이하</option>
+              <option>500,000원 이하</option>
+              <option>1,00,000원 이하</option>
+			  <option>그 이상</option>
+			</select>
+		</div>
+        <div>
+        	<h3 class="text-center text-danger">공연 소개 및 부탁사항</h3>
+			<textarea class="form-control" rows="3"></textarea>
+    	</div>
+        <div class="up_down">
+        	<input class="center-block btn btn-default" type="submit" value="Submit">
+        </div>
+    	
+    </div>
+    <!---여기 위까지-->
+    	<footer class="footer">
+        	<h2>© VitaminPlus in Sejong Univ.</h2>
+    	</footer>
+    </div> <!-- /container -->
+</body>
+</html>
